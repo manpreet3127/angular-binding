@@ -10,6 +10,7 @@ import { HeaderComponent } from "./myContainer/header/header.component";
 import { DatabindComponent } from "./databind/data-bind.component";
 import { ClassStyleComponent } from "./classStyle/class-style.component";
 import { EventBindComponent } from "./databind/EventBind/event-bind.component";
+import { TwowayBindingComponent } from "./databind/TwowayBinding/two-way-bind.component";
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -21,7 +22,8 @@ import { EventBindComponent } from "./databind/EventBind/event-bind.component";
     HeaderComponent,
     DatabindComponent,
     ClassStyleComponent,
-    EventBindComponent
+    EventBindComponent,
+    TwowayBindingComponent
   ],
   bootstrap: [AppComponent]
 })
